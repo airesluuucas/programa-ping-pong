@@ -20,7 +20,7 @@
         pincel.clearRect(0, 0, 600, 400);
     }
 
-    var x = 20;
+    var x = 0;
     var ir = true;
 
     function atualizaTela() {
@@ -30,10 +30,10 @@
 
 	if( ir){
  
-             desenhaCirculo(x, 50, 30);
+             desenhaCirculo(200, 200, x);
              x++;
 
-	     if( x > 500){
+	     if( x > 150){
 
 		  ir = false;
 
@@ -41,10 +41,10 @@
 	
 	}else {
 
-                   desenhaCirculo(x, 50, 30);
+                   desenhaCirculo(200, 200, x);
                    x--;
 
-		   if( x < 20){
+		   if( x < 5){
 
 		      ir = true;
 
