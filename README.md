@@ -1,1 +1,1 @@
-# Programa ping-pong em html e depois transforma o mesmo programa no programa pulsar mudando algumas variáveis.
+# Programa ping-pong em html e depois transforma o mesmo programa em outro programa da bola pulsar mudando algumas variáveis.
